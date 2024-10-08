@@ -6,7 +6,9 @@ gsap.to(myvar,{
     duration : 2,
     text:{
         value:"The Code Creative",
-        delimiter:" "
+        //delimiter:" "
+        oldClass:"start",
+        newClass:"end"
     }
     
 })
